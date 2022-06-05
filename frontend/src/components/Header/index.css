@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100px;
+
+  padding: 20px 100px;
+
+  border-bottom: 2px solid #726ae8;
+  /* box-shadow: 0 0 20px 0 rgb(127 127 127 / 50%); */
+}
+
+.header > .header--logo {
+  width: 100px;
+}
